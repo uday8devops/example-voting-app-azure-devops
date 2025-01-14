@@ -20,7 +20,7 @@ variables:
 
 # Agent Pool
 pool:
-name: myCustomPool
+    name: myCustomPool
 
 stages:
 - stage: Build
