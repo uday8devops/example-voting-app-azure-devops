@@ -51,7 +51,6 @@ stages:
       inputs:
         containerRegistry: '$(dockerRegistryServiceConnection)'
         repository: '$(imageRepository)'
-        command: 'build'
-        Dockerfile: 'vote/Dockerfile'
+        command: 'push'
         tags: '$(tag)'
 
